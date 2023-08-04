@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(8, 170, 235);
+    min-height: 100vh;
+    font-family: 'Roboto', sans-serif;
+}
+
+.wrapper{
+    width:400px;
+    border-radius: 10px;
+    background-color: #eee;
+    padding: 35px;
+}
+
+.wrapper input,textarea,select,button{
+    width: 100%;
+    margin-bottom: 10px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+}
+
+.wrapper textarea{
+    height: 250px;
+    border: 1px solid #ccc;
+    resize: none;
+    padding: 10px;;
+}
+
+.file-options{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top:10px;
+}
+
+.file-options .option{
+    width: calc(100%/2 - 8px)
+}
+
+
+.option .Selection select,.option input{
+    height: 50px;
+    padding: 0 7px;
+    border-radius: 5px;
+    margin-top: 5px;
+}
+
+.save-btn{
+    margin-top: 20px;
+    padding: 15px;
+    background-color: rgb(8, 170, 235);
+    color:white;
+    cursor: pointer;
+}
